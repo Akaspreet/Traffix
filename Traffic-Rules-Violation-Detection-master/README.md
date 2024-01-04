@@ -1,13 +1,5 @@
 # Traffic Rules Violation Detection with Computer Vision
 
-> Initial Release (Everything is not completed)
-
-:star: Please star this project. It helps a lot.
-
-![Overal use case](images/main.gif)
-
-
-![Dark theme Screen shot](images/main_black.png)
 
 ## TL;DR
 
@@ -33,18 +25,16 @@ Go [here](#quick-starting-the-project) if you don't have time.
   - [Image Processing and Computer Vision](#image-processing-and-computer-vision)
   - [Graphical User Interface](#graphical-user-interface-gui)
   - [Rules Violation Video Representation](#rules-violation-video-representation-in-ui)
-- [Contributing](#contributing)
 - [Links and References](#links-and-references)
-- [Author](#author)
-- [Licensing](#licensing)
+
 
 ## Motivation
 
-This project is made for the third year second semester System Development(CSE-3200) course.
+This project is made for the Capstone(Final Year).
 
 ## Introduction
 
-The increasing number of cars in cities can cause high volume of traffic, and implies that traffic violations become more critical nowadays in Bangladesh and also around the world. This causes severe destruction of property and more accidents that may endanger the lives of the people. To solve the alarming problem and prevent such unfathomable consequences, traffic violation detection systems are needed. For which the system enforces proper traffic regulations at all times, and apprehend those who does not comply. A traffic violation detection system must be realized in real-time as the authorities track the roads all the time. Hence, traffic enforcers will not only be at ease in implementing safe roads accurately, but also efficiently; as the traffic detection system detects violations faster than humans. This system can detect most common three types of traffic violation in real-time which are signal violation, parking violation and wrong direction violation. A user friendly graphical interface is associated with the system to make it simple for the user to operate the system, monitor traffic and take action against the violations of traffic rules.
+The increasing number of cars in cities can cause high volume of traffic, and implies that traffic violations become more critical nowadays and also around the world. This causes severe destruction of property and more accidents that may endanger the lives of the people. To solve the alarming problem and prevent such unfathomable consequences, traffic violation detection systems are needed. For which the system enforces proper traffic regulations at all times, and apprehend those who does not comply. A traffic violation detection system must be realized in real-time as the authorities track the roads all the time. Hence, traffic enforcers will not only be at ease in implementing safe roads accurately, but also efficiently; as the traffic detection system detects violations faster than humans. This system can detect most common three types of traffic violation in real-time which are signal violation, parking violation and wrong direction violation. A user friendly graphical interface is associated with the system to make it simple for the user to operate the system, monitor traffic and take action against the violations of traffic rules.
 
 ## Objective
 
@@ -58,7 +48,7 @@ The goal of the project is to automate the traffic rules violation detection sys
 
 ## System Overview
 
-![System Overview](images/system.png)
+
 
 The System consists of two main components -
 
@@ -179,7 +169,7 @@ The GUI is made mainly for this purpose that, there will always be a supervisor 
 
 ![Figure 8](images/detail.png)
 
-Figure 8: details of rule violation
+Figure 8: Details of rule violation
 
 Also the admin/user can delete the records if he gets a false positive. But there will never a record deleted. The database has a marker of which file have been archived. If we want to retrieve a record from the deleted once, then the admin needs to go to the archive window. There he can restore any record he wants.
 The user can also search for a vehicle, with its license number, its color, or date of a rule violation. The license number has text prediction so the user will be sure while typing a license number that it exists.
@@ -220,10 +210,7 @@ Libraries used for graphical user interface:
 2. QDarkStyle
 3. PyQtTimer
 
-## Contributing
 
-The main reason to publish something open source, is that anyone can just jump in and start contributing to my project.
-So If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
 ## Links and References
 
@@ -235,22 +222,13 @@ So If you'd like to contribute, please fork the repository and use a feature bra
 - PyQt: https://riverbankcomputing.com/software/pyqt/intro
 - opencv: https://docs.opencv.org/2.4/index.html
 - imutils: https://github.com/jrosebr1/imutils
-- In case of any help you may need from me, please contact rahatzamancse@gmail.com directly without any hesitation! I will be glad to help you.
 
-## Author
 
-Rahat Zaman, Sakib Reza
-rahatzamancse@gmail.com
-Student at Department of Computer Science and Engineering
-Khulna University of Engineering & Technology, Khulna
-Bangladesh
 
 ** Supervised under **
-Dr. Sk. Mohammad Masudul Ahsan
-Professor
+Dr. Amrita Dahiya
+Assistant Professor
 Dept. of Computer Science and Engineering
-Khulna University of Engineering & Technology
+Thapar Institute Of Engineering and Technology(TIET), Patiala
 
-## Licensing
 
-The code in this project is licensed under GNU GPLv3 license.
