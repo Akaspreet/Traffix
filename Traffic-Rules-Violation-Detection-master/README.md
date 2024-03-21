@@ -25,7 +25,6 @@ Go [here](#quick-starting-the-project) if you don't have time.
   - [Image Processing and Computer Vision](#image-processing-and-computer-vision)
   - [Graphical User Interface](#graphical-user-interface-gui)
   - [Rules Violation Video Representation](#rules-violation-video-representation-in-ui)
-- [Links and References](#links-and-references)
 
 
 ## Motivation
@@ -42,7 +41,7 @@ The goal of the project is to automate the traffic rules violation detection sys
 
 ## Quick starting the project
 
-1. `git clone https://github.com/rahatzamancse/EyeTask.git`
+1. `git clone https://github.com/Akaspreet/Traffix.git`
 2. Install required python dependencies from `requirements.txt` into your python virtual environment. (`pip install -r requirements.txt`)
 3. `python main.py`
 
@@ -209,19 +208,6 @@ Libraries used for graphical user interface:
 1. PyQt5
 2. QDarkStyle
 3. PyQtTimer
-
-
-
-## Links and References
-
-- Project homepage: https://github.com/rahatzamancse/Traffic-Rules-Violation-Detection
-- Repository: https://github.com/rahatzamancse/Traffic-Rules-Violation-Detection.git
-- Issue tracker: https://github.com/rahatzamancse/Traffic-Rules-Violation-Detection/issues
-- G. Ou, Y. Gao and Y. Liu, "Real TimeVehicularTrafficViolationDetectioninTrafficMonitorin gStream," in 2012 IEEE/WIC/ACM , Beijing, China , 2012.
-- X. Wang, L.-M. Meng, B. Zhang, J. Lu and K.-L.Du, "A Video-based Traffic Violation Detection System," in MEC, Shenyang, China, 2013.
-- PyQt: https://riverbankcomputing.com/software/pyqt/intro
-- opencv: https://docs.opencv.org/2.4/index.html
-- imutils: https://github.com/jrosebr1/imutils
 
 
 
